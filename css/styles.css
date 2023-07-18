@@ -122,6 +122,22 @@ body {
     background-color: var(--second-text-color);
     color: var(--background-color-grey);
 }
+
+.filter-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: var(--background-color-grey);
+    color: var(--global-color-blue);
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--active-button);
+    color: var(--background-color-white);
+}
 /* основной цвет текста  background: rgba(67, 68, 85, 1);
 вторичный цвет текста background: rgba(46, 47, 66, 1);
 белый  #FFFFFF;
