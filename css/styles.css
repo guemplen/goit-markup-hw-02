@@ -1,148 +1,142 @@
 :root {
-    --global-font: 'Roboto', sans-serif;
-    --second-font: 'Raleway', sans-serif;
-    --global-text-color: #434455;
-    --second-text-color: #2E2F42;
-    --background-color-white: #fff;
-    --background-color-grey: #F4F4FD;
-    --global-color-blue: #4D5AE5;
-    --active-button: #404BBF;
-
+  --global-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --global-text-color: #434455;
+  --second-text-color: #2e2f42;
+  --background-color-white: #fff;
+  --background-color-grey: #f4f4fd;
+  --global-color-blue: #4d5ae5;
+  --active-button: #404bbf;
 }
 
 body {
-    font-family: var(--global-font);
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.72px;
-    background-color: var(--background-color-white);
-    color: var(--global-text-color);
-
+  font-family: var(--global-font);
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  background-color: var(--background-color-white);
+  color: var(--global-text-color);
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .logo {
-    font-family: var(--second-font);
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
-    color: var(--global-color-blue);
+  font-family: var(--second-font);
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  color: var(--global-color-blue);
 }
 
 .studio {
-    color: var(--second-text-color);
+  color: var(--second-text-color);
 }
 
 .studio-footer {
-    color: var(--background-color-grey);
+  color: var(--background-color-grey);
 }
 
 .header {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .hero {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
-    background-color: var(--second-text-color);
-    color: var(--background-color-white);
-
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  background-color: var(--second-text-color);
+  color: var(--background-color-white);
 }
 
 .hero-button {
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    letter-spacing: 0.64px;
-    background-color: var(--global-color-blue);
-    color: var(--background-color-white);
-    cursor: pointer;
-
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  background-color: var(--global-color-blue);
+  color: var(--background-color-white);
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--active-button);
+  background-color: var(--active-button);
 }
 
 .advantages {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    background-color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  background-color: #fff;
 }
 
 .item {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .headlines {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
 }
 
 .team {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px
-
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .footer {
-    background-color: var(--second-text-color);
-    color: var(--background-color-grey);
+  background-color: var(--second-text-color);
+  color: var(--background-color-grey);
 }
 
 .filter-button {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    background-color: var(--background-color-grey);
-    color: var(--global-color-blue);
-    cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--background-color-grey);
+  color: var(--global-color-blue);
+  cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
-    background-color: var(--active-button);
-    color: var(--background-color-white);
+  background-color: var(--active-button);
+  color: var(--background-color-white);
 }
 /* основной цвет текста  background: rgba(67, 68, 85, 1);
 вторичный цвет текста background: rgba(46, 47, 66, 1);
