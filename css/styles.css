@@ -43,7 +43,9 @@ body {
 .logo {
   font-family: var(--second-font);
   font-size: 18px;
-  line-height: 1.16;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--global-color-blue);
 }
@@ -61,16 +63,29 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--second-text-color);
+}
+
+.header:hover,
+.header:focus {
+  color: var(--active-button);
 }
 
 .address {
   font-style: normal;
+  color: var(--global-text-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--active-button);
 }
 
 .hero {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
+  text-align: center;
   background-color: var(--second-text-color);
   color: var(--background-color-white);
 }
@@ -93,9 +108,12 @@ body {
 
 .advantages {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   background-color: #fff;
+  color: var(--second-text-color);
 }
 
 .item {
@@ -109,13 +127,20 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: var(--background-color-grey);
+  color: var(--second-text-color);
 }
 
 .team {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   letter-spacing: 0.4px;
+  background-color: var(--background-color-white);
+  color: var(--second-text-color);
 }
 
 .footer {
@@ -124,6 +149,7 @@ body {
 }
 
 .filter-button {
+  font-family: var(--global-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
