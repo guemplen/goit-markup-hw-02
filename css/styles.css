@@ -1,11 +1,130 @@
 :root {
+    --global-font: 'Roboto', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+    --global-text-color: #434455;
+    --second-text-color: #2E2F42;
+    --background-color-white: #fff;
+    --background-color-grey: #F4F4FD;
+    --global-color-blue: #4D5AE5;
+    --active-button: #404BBF;
 
 }
 
-.logo-web {
-    color: rgba(77, 90, 229, 1);
+body {
+    font-family: var(--global-font);
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    background-color: var(--background-color-white);
+    color: var(--global-text-color);
+
 }
 
-.logo-studio {
-    color: rgba(46, 47, 66, 1);
+.link {
+    text-decoration: none;
 }
+
+.list {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.logo {
+    font-family: var(--second-font);
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    color: var(--global-color-blue);
+}
+
+.studio {
+    color: var(--second-text-color);
+}
+
+.studio-footer {
+    color: var(--background-color-grey);
+}
+
+.address {
+    font-style: normal;
+}
+
+
+
+.hero {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    background-color: var(--second-text-color);
+    color: var(--background-color-white);
+
+}
+
+.hero-button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    background-color: var(--global-color-blue);
+    color: var(--background-color-white);
+    cursor: pointer;
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--active-button);
+}
+
+.advantages {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    background-color: #fff;
+}
+
+.item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.headlines {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+}
+
+.team {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px
+
+}
+
+.footer {
+    background-color: var(--second-text-color);
+    color: var(--background-color-grey);
+}
+/* основной цвет текста  background: rgba(67, 68, 85, 1);
+вторичный цвет текста background: rgba(46, 47, 66, 1);
+белый  #FFFFFF;
+акцент  #4D5AE5;
+футер цвет текста, вторичный цвет фона #F4F4FD;
+*/
