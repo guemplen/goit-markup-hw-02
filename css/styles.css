@@ -33,7 +33,7 @@ button {
   cursor: pointer;
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -45,7 +45,7 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 /* ================ COMMON ================ */
 
@@ -55,6 +55,7 @@ button {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em
   text-align: center;
   text-transform: capitalize;
   color: var(--second-text-color);
@@ -109,13 +110,16 @@ button {
 }
 
 .hero {
+  text-align: center;
+  background-color: var(--second-text-color);
+  color: var(--background-color-white);
+}
+
+.hero-headline {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-  background-color: var(--second-text-color);
-  color: var(--background-color-white);
 }
 
 .hero-button {
@@ -134,11 +138,14 @@ button {
 }
 
 .advantages {
+  color: var(--second-text-color);
+}
+
+.advantages-headline {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--second-text-color);
 }
 
 .item {
@@ -146,18 +153,26 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--global-text-color);
 }
 
 .team {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   background-color: var(--background-color-grey);
   color: var(--second-text-color);
 }
 
+.team-headline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .footer {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   background-color: var(--second-text-color);
   color: var(--background-color-grey);
 }
