@@ -1,3 +1,5 @@
+/* ================ VARIABLES ================ */
+
 :root {
   --global-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
@@ -9,11 +11,12 @@
   --active-button: #404bbf;
 }
 
+/* ================ VARIABLES ================ */
+
+/* ================ COMMON ================ */
+
 body {
   font-family: var(--global-font);
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.72px;
   background-color: var(--background-color-white);
   color: var(--global-text-color);
 }
@@ -24,6 +27,10 @@ body {
 
 .list {
   list-style-type: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -39,6 +46,21 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* ================ COMMON ================ */
+
+/* ================ COMPONENTS ================ */
+
+.headlines {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--second-text-color);
+}
+
+/* ================ COMPONENTS ================ */
 
 .logo {
   font-family: var(--second-font);
@@ -63,6 +85,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background: var(--background-color-white);
   color: var(--second-text-color);
 }
 
@@ -72,6 +95,10 @@ body {
 }
 
 .address {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   font-style: normal;
   color: var(--global-text-color);
 }
@@ -83,6 +110,7 @@ body {
 
 .hero {
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -98,7 +126,6 @@ body {
   letter-spacing: 0.64px;
   background-color: var(--global-color-blue);
   color: var(--background-color-white);
-  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -110,9 +137,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
   letter-spacing: 0.02em;
-  background-color: #fff;
   color: var(--second-text-color);
 }
 
@@ -123,23 +148,12 @@ body {
   letter-spacing: 0.32px;
 }
 
-.headlines {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  background-color: var(--background-color-grey);
-  color: var(--second-text-color);
-}
-
 .team {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  letter-spacing: 0.4px;
-  background-color: var(--background-color-white);
+  background-color: var(--background-color-grey);
   color: var(--second-text-color);
 }
 
@@ -149,14 +163,12 @@ body {
 }
 
 .filter-button {
-  font-family: var(--global-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   background-color: var(--background-color-grey);
   color: var(--global-color-blue);
-  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -164,9 +176,8 @@ body {
   background-color: var(--active-button);
   color: var(--background-color-white);
 }
-/* основной цвет текста  background: rgba(67, 68, 85, 1);
-вторичный цвет текста background: rgba(46, 47, 66, 1);
-белый  #FFFFFF;
-акцент  #4D5AE5;
-футер цвет текста, вторичный цвет фона #F4F4FD;
-*/
+
+.portfolio {
+  background-color: var(--background-color-white);
+  color: var(--second-text-color);
+}
