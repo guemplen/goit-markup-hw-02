@@ -33,20 +33,6 @@ button {
   cursor: pointer;
 }
 
-/*.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}*/
-
 /* ================ COMMON ================ */
 
 /* ================ COMPONENTS ================ */
@@ -104,8 +90,12 @@ button {
   color: var(--global-text-color);
 }
 
-.address:hover,
-.address:focus {
+.address-color {
+  color: var(--global-text-color);
+}
+
+.address-color:hover,
+.address-color:focus {
   color: var(--active-button);
 }
 
@@ -157,7 +147,7 @@ button {
 }
 
 .team {
-  background-color: var(--background-color-grey);
+  background-color: var(--background-color-white);
   color: var(--second-text-color);
 }
 
@@ -169,15 +159,19 @@ button {
 }
 
 .footer {
+  background-color: var(--second-text-color);
+}
+
+.footer-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  background-color: var(--second-text-color);
   color: var(--background-color-grey);
 }
 
 .filter-button {
+  font-family: var(--global-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
