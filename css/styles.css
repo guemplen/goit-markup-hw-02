@@ -142,6 +142,10 @@ button:focus {
   color: var(--global-text-color);
 }
 
+.item-background {
+  background-color: var(--background-color-white);
+}
+
 .team {
   background-color: var(--background-color-grey);
 }
