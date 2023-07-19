@@ -144,7 +144,6 @@ button:focus {
 
 .team {
   background-color: var(--background-color-grey);
-  color: var(--second-text-color);
 }
 
 .team-headline {
@@ -153,6 +152,7 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: var(--background-color-white);
+  color: var(--second-text-color);
 }
 
 .footer {
