@@ -21,6 +21,11 @@ body {
   color: var(--global-text-color);
 }
 
+a:hover,
+a:focus {
+  color: var(--active-button);
+}
+
 .link {
   text-decoration: none;
 }
@@ -31,6 +36,11 @@ body {
 
 button {
   cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--active-button);
 }
 
 /* ================ COMMON ================ */
@@ -76,27 +86,16 @@ button {
   color: var(--second-text-color);
 }
 
-.header:hover,
-.header:focus {
-  color: var(--active-button);
-}
-
 .address {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
-  color: var(--global-text-color);
 }
 
 .address-color {
   color: var(--global-text-color);
-}
-
-.address-color:hover,
-.address-color:focus {
-  color: var(--active-button);
 }
 
 .hero {
@@ -120,11 +119,6 @@ button {
   letter-spacing: 0.64px;
   background-color: var(--global-color-blue);
   color: var(--background-color-white);
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--active-button);
 }
 
 .advantages {
@@ -196,4 +190,11 @@ button {
   letter-spacing: 0.02em;
   background-color: var(--background-color-white);
   color: var(--second-text-color);
+}
+
+.portfolio-headline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
